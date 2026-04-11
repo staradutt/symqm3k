@@ -1,0 +1,9 @@
+torch>=2.0.0
+torch_geometric
+torch_scatter
+torch_sparse
+torch_cluster
+mace-torch
+e3nn
+numpy
+pandas
