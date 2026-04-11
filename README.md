@@ -21,6 +21,24 @@ python data/download.py
 Or manually download the four CSV files from [https://huggingface.co/datasets/taradutt007/symqm3k] 
 and place them in the working directory.
 
+## Evaluation with Pretrained Weights
+
+Download the pretrained SymMACE weights from HuggingFace:
+
+```python
+from huggingface_hub import hf_hub_download
+path = hf_hub_download(
+    repo_id="taradutt007/symqm3k",
+    filename="symmace_best.pt",
+    repo_type="dataset")
+```
+
+Then evaluate:
+
+```bash
+python evaluate.py --weights symmace_best.pt
+```
+
 ## Training
 
 Train SymMACE from scratch (reproduces paper results):
