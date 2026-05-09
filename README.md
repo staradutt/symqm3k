@@ -1,6 +1,6 @@
 # SymQM-3k
 
-Code for the paper: *SymQM-3k: A Symmetry-Resolved Quantum Chemistry 
+Code: *SymQM-3k: A Symmetry-Resolved Quantum Chemistry 
 Dataset and Multi-Task Graph Neural Network for Molecular Orbital 
 Irrep Prediction*
 
